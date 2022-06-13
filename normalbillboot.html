@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+       table,td,tr
+       {
+         border: 2px solid black;
+         border-collapse: collapse;
+       }
+       tr.on
+       {
+         text-align: center;
+         font-weight: bolder;
+         font-size: 20px;
+       }
+       tr.tr
+       {
+         height: 300px;
+       }
+  </style></head>
+<body>
+  <DIV class="container">
+   <div class="row">
+    <div class="col-md-11">
+ <nav class="navbar navbar-light" style="background-color:#D2AA6D;">
+    <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar"> 
+        <div class="span">
+         <span class="icon-bar" style="border: 2px solid black;"></span>
+         <span class="icon-bar" style="border: 2px solid black;"></span>
+         <span class="icon-bar" style="border: 2px solid black;"></span>
+       </div>
+       </button>
+       <a href="#" class="navbar-brand" style="color: rgb(42, 88, 88);">Billie application</a>
+    </div>
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="">P:-Print</a></li>
+        <li class=""><a href="">E:-Export</a></li>
+        <li class=""><a href="">M:-E-Export</a></li>
+        <li class=""><a href="">O:Upload</a></li>
+        <li class=""><a href="">S:TallyShop</a> </li>
+        <li class=""><a href="">G:Language</a></li>
+        <li class=""><a href="">K:KeyBoard</a></li>
+        <li class="active"><a href="">control center</a></li>
+        <li class=""><a href="">H:support center</a></li>
+        <li class=""><a href="">H:help</a></li>
+      </ul>
+    </div>
+    </div>
+ </nav>
+     <div class="row">
+      <div class="col-xs-offset-2 col-xs-3"><p>Bill No:1</p></div>
+      <div class="col-xs-offset-3 col-xs-3"><label for="">Date:-</label><input type="date" >
+      </div>
+     </div>
+ 
+      <form action="" >
+        <div class="row">
+          <div class="col-xs-2">
+        <label for="" class="form-label">BillNo:</label><input type="text" name="" id="" placeholder="BillNo" class="form-control">
+      </div>
+      <div class="col-xs-offset-2 col-xs-3">
+       <div class="form-group">
+      <label for="name">Party Name</label>
+      <input type="name" class="form-control" id="email" placeholder="Enter name" name="email">
+    </div>
+  </div>
+       <br>
+  
+      <div class="row">
+         <div class="col-xs-4"> <label for="" >Address :</label><input type="Text" name="" id="" placeholder="address" style="height: 50px;" class="form-control"></div>
+         <div class=" col-xs-offset-2 col-xs-4"><label for="">Mobile Number:</label><input type="Text" name="" id="" placeholder="9990920900"class="form-control" >
+      </div>
+      </div>
+
+      <hr> 
+      <div class="row">
+        <div class="col-md-4">
+    <label for="num">GST NUMBER:</label><input type="text" placeholder="Gst Number" class="form-control">
+  </div>
+    <div class="col-md-4">
+    <label for="email">email:-</label><input type="text" name="" id="" placeholder="abc@gmail.com" class="form-control">
+    </div>
+    <div class="col-md-4">
+      <label for="panNo">Pan No:-</label><input type="text" placeholder="909 090 9090 " class="form-control ">
+    </div>
+  </div>
+      </form>
+      <hr>
+      <p>Total Sales Amount:-</p>
+      <div class="row">
+      <table class="table table-responsive-md">
+        <thead class="thead-light ">
+        <tr class="on">
+          <div class="col-xs-4">
+          <th class="1">Name of the item</td></div>
+            <div class="col-xs-2">
+          <th class="2">Quantity</th></div>
+          <div class="col-xs-2">
+          <th class="3">Rate</th></div>
+          <div class="col-xs-2">
+          <th class="4">Disc%</th></div>
+          <div class="col-xs-2">
+          <th class="5">Price</th></div>
+          </div>
+        </tr>
+        <tbody class="table-sucess">
+          <tr class="tr">
+            <td><input type="text" name="" id="" placeholder="Product name" style="width: 700px;" ></td>
+            <td><input type="number" placeholder="nos" style="width:80px;"></td>
+              <td><input type="text" name="" id="" placeholder="rate" style="width:80px;"></td>
+              <td><input type="text" name="" id="" placeholder="disc" style="width:80px;"></td>
+              <td><input type="text" name="" id="" placeholder="total" style="width:80px;"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+             <td colspan="4">Total</td>
+             <td><input type="text" placeholder="total "></td>
+           </tr>
+        </tfoot>
+      </table>
+    
+   </div>
+   </DIV>
+<div class="col-md-1">
+ <div class="right" >
+   <button class="btn btn-primary"></button><br>
+    <button class="btn btn-success"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-warning"></button><br>
+    <button class="btn btn-secondary"></button><br>
+    <button class="btn btn-info"></button><br>
+    <button class="btn btn-dark"></button><br>
+    <button class="btn btn-primary"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button  class="btn btn-success"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger"></button><br>
+    <button class="btn btn-danger btn btn-lg"></button>
+  </div>
+ </div>
+</div>
+</DIV>
+
+</body>
+</html>

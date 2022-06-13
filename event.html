@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      window.addEventListener("load",start,false);
+      var n="hello world"
+      function start()
+      {
+        document.getElementById("op").addEventListener("mouseover",mo,false);
+        document.getElementById("op").addEventListener("mouseout",lo,false);
+      }
+      function mo()
+      {
+        document.getElementById("op").innerHTML="moveone";
+      }
+      function lo()
+      {
+        document.getElementById("op").innerHTML=n
+      }
+    </script>
+  </head>
+  <body>
+    <p id="op">hello world</p>
+  </body>
+</html>

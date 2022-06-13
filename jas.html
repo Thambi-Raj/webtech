@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="TEXT/javascript">
+      function start()
+      {
+      var a=[10,200,30,400,50];
+      c="original"+"<br>";
+      for( var i=0;i<a.length;i++)
+      {
+          for(var j=i+1;j<a.length;j++)
+          {
+            if(a[i]>a[j])
+            {
+              var t=a[i]
+              a[i]=a[j]
+              a[j]=t
+            }
+          }
+          
+      }
+      document.getElementById("op").innerHTML=c+a;
+    }
+    </script>
+  </head>
+  <body onload="start()">
+    <div id="op"></div>
+    <h1>hi</h1>
+  </body>
+</html>
